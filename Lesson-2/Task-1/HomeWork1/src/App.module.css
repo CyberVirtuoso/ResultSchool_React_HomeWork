@@ -1,0 +1,62 @@
+.keyBoard
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    width: 13vw;
+    height: 16vh;
+}
+
+.btn
+{
+    width: 6vb;
+    height: 3vb;
+}
+
+.inputBlock
+{
+    display: inline-flex;
+    width: 20vw;
+    margin-bottom: 1vh;
+}
+
+.input
+{
+    width: 9vw;
+    height: 3vb;
+    border-radius: 10%;
+    border-color: black;
+    border-width: 0.5px;
+}
+
+.clearBtn
+{
+    width: 6vb;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.greenText
+{
+    color: green;
+}
+
+.whiteText
+{
+    color: white;
+}
