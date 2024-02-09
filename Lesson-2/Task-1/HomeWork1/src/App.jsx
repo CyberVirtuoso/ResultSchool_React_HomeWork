@@ -62,7 +62,7 @@ const App = () => {
 
 	return (
 		<>
-			<div>
+			<div className={styles.calculaator}>
 				<div className={styles.inputBlock}>
 					{/*<input className={styles.input} type="text" value={inputString} readOnly={true} />*/}
 					<p className={styles.input}>{`${operand1 ? operand1:''}${operator? operator:''}${operand2?operand2:''}${result? '=':''}`}<span className={result?styles.greenText:styles.whiteText}>{`${result? result:''}`}</span></p>
